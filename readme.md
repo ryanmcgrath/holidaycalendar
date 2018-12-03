@@ -12,9 +12,14 @@ The meat of this, if you're concerned with swiping components, is found in `Holi
 
 ## Screenshots
 ![Unswiped](https://github.com/ryanmcgrath/holidaycalendar/blob/master/screenshots/Unswiped.png?raw=true)
+![Swiped](https://github.com/ryanmcgrath/holidaycalendar/blob/master/screenshots/SwipedOpen.png?raw=true)
 
 ## What else is here?
 This repo could also be used as scaffolding/reference for a nibless Swift Cocoa app, if you're into that sorta thing. I personally think Interface Builder makes anyone who deals with UI in code (web devs, etc) groan out loud, so maybe this goes towards showing it's not _that_ difficult or outlandish to do otherwise.
+
+- It implements an `NSToolbar` in code, which... well the docs aren't really friendly to that.
+- It implements an `NSMenu` in code, which... well, again, you see how this works.
+- Implements window/rootview/etc in code.
 
 ## License, etc
 This is very much a "do-wtf-you-want-with-it" license. Code is as-is.
