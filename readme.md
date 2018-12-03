@@ -10,6 +10,9 @@ The meat of this, if you're concerned with swiping components, is found in `Holi
 - I haven't tied this into a specific API; I would recommend just taking the SwipeCellKit API approach, or just integrating it into SwipeCellKit itself.
 - Right now the animations are "dumb" in that they don't have a sense of velocity on the drag actions, as getting it in macOS drags can be a bit of a PITA. No reason it can't be done, I just didn't bother.
 
+## Screenshots
+![Unswiped](https://github.com/ryanmcgrath/holidaycalendar/blob/master/screenshots/Unswiped.png?raw=true)
+
 ## What else is here?
 This repo could also be used as scaffolding/reference for a nibless Swift Cocoa app, if you're into that sorta thing. I personally think Interface Builder makes anyone who deals with UI in code (web devs, etc) groan out loud, so maybe this goes towards showing it's not _that_ difficult or outlandish to do otherwise.
 
